@@ -1,0 +1,292 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*
+    Clearfix
+    
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  clear: both;
+  *zoom: 1;
+}
+
+/*
+
+    Container & Grid
+    
+*/
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+.container,
+.grid{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 30px;
+}
+
+.grid,
+.col-1-3,
+.col-1-4 {
+    padding: 0 15px;
+}
+
+.col-1-3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 33.33%;
+}
+
+.col-2-3 {
+    display: inline-block;
+    vertical-align: top;
+    width: 66.10%;
+}
+
+.col-1-4 {
+    display: inline-block;
+    vertical-align: top;
+    width: 24.9975%;
+}
+
+.title-section {
+    text-align: center;
+    padding: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+/*
+
+    Typography
+
+*/
+
+h1, h2, h3, h4, h5, h6, p, a, li {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
+blockquote {
+    text-align: right;
+    padding-bottom: 10px;
+}
+
+cite {
+    text-align: left;
+    font-style: italic;
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/*
+
+    media
+
+*/
+
+.grid-img {
+    width: 100%;
+}
+
+/*
+
+    Header
+    
+*/
+
+header li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.portfolio-header h2 {
+    float: left;
+}
+
+.portfolio-nav {
+    float: right;
+}
+
+.portfolio-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #eee;
+}
+
+.portfolio-header li:first-child {
+    padding-left: 0;
+}
+
+.portfolio-header li:last-child {
+    border-right: 0;
+    padding-right: 0;
+}
+
+/*
+
+    Hero
+
+*/
+
+.hero .container {
+    padding: 400px 0 400px 0;
+    text-align: left;
+}
+
+/*
+
+    Project
+
+*/
+
+.project h5 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.project p {
+    padding-bottom: 10px;
+}
+
+/*
+
+    Contact
+
+*/
+
+.contact .col-1-4 {
+    vertical-align: middle;
+}
